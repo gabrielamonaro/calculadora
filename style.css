@@ -44,10 +44,15 @@ table td:hover{
     padding: auto 0;
 }
 
+.texto-igual{
+    position: relative;
+    top: 86px;
+}
+
 main{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%; 
     transform: translate(-50%,-50%);
     border-radius: 9px;
 }
