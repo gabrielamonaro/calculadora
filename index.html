@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Calculadora</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body> 
+    
+    <main>
+
+        <table>
+            <tr>
+                <div class="Resultado">
+                    <p  id="res">  </p>
+                </div>
+            </tr>
+            <tr class="operadores"> 
+                <td onclick="inserir('+')"> + </td>
+                <td onclick="inserir('-')"> - </td>
+                <td onclick="inserir('*')"> × </td>
+                <td onclick="inserir('/')"> ÷ </td>
+            </tr>
+            <tr class="numbers">
+                <td onclick="inserir('7')"> 7 </td>
+                <td onclick="inserir('8')"> 8 </td>
+                <td onclick="inserir('9')"> 9 </td>
+                <td rowspan="4" id="igual" onclick="igual()"> <p class="texto-igual"> = </p> </td>
+            </tr>
+         
+            <tr class="numbers">
+                <td onclick="inserir('4')"> 4</td>
+                <td onclick="inserir('5')"> 5 </td>
+                <td onclick="inserir('6')"> 6 </td>
+                
+            </tr>
+            <tr class="numbers">
+                <td onclick="inserir('1')"> 1</td>
+                <td onclick="inserir('2')"> 2 </td>
+                <td onclick="inserir('3')"> 3 </td>
+                
+            </tr>
+            <tr class="numbers">
+                <td onclick="inserir('0')"> 0</td>
+                <td onclick="inserir('.')"> . </td>
+                <td onclick="cancel()"> C </td>
+                
+            </tr>
+
+        </table>
+        
+    </main>
+
+    <script src="main.js"> </script>
+</body>
+</html>

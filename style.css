@@ -1,0 +1,83 @@
+html{
+    background: rgb(160, 203, 222);
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+    border:1px solid white;
+}
+
+.operadores{
+    background: rgb(232,232,232);
+}
+
+.operadorEscolhido{
+    font-size:20px;
+    font-weight: none;
+    display: inline;
+}
+
+
+table td{
+    padding: 20px 10px;
+    border: 1px solid rgb(188,184,183);
+    font-family: arial;
+    border-radius: 2px;
+    width: 80px;
+    font-size: 20px;
+}
+
+table td:hover{
+    box-shadow: inset 0 0 3px black ; 
+    cursor: pointer;
+}
+
+.numbers{
+    background: rgb(255,255,255);
+}
+
+#igual{
+    background:rgb(248, 137, 102);
+    width: 80px;
+    padding: auto 0;
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 9px;
+}
+
+.box{
+    padding:  20px 50px;
+    margin: 2% 5% 0% 16%;
+    width: 10%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.opçoes{
+    top: 39%;
+    right:30%;
+    width: 30%;
+}
+
+.resultado p{
+    display: inline;
+    height: 30px;
+}
+
+#res{
+    height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+    font-family: 'Courier New'; 
+    padding: 15px;
+    background: black;
+}
